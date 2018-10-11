@@ -30,7 +30,7 @@ public class FlipkartHookups extends FlipkartBaseclass {
 	}
 	@After()
 	public void intilize1() {
-		//driver.close();
+		driver.close();
 		System.out.println("driver close for clean up");
 	}
 }
